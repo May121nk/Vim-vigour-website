@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+}
+::-webkit-scrollbar {
+  display: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+#bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://longstoryshortdesign.co.uk/wp-content/uploads/2017/03/vim-and-vigour-hero-2.jpg);
+  background-size: cover;
+  position: fixed;
+}
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 40px;
+}
+#nav #left i {
+  padding: 6px 12px;
+  background-color: rgba(0, 0, 0, 0.866);
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+}
+#nav #right h3 {
+  margin-top: -26px;
+  margin-right: 5px;
+  font-size: 20px;
+  letter-spacing: 4px;
+  line-height: 40px;
+  border-bottom: 2px solid black;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+#body {
+  width: 100%;
+  height: 100vh;
+  background: transparent;
+  overflow: hidden;
+}
+
+#body1 {
+  width: 100%;
+  height: 175vh;
+  background-color: #313033;
+}
+#body1 #line {
+  border: 0.1px solid white;
+  width: 100px;
+  rotate: 90deg;
+  margin-left: 45%;
+}
+#body1 h1 {
+  font-size: 45px;
+  margin-top: 70px;
+  color: white;
+  margin-left: 40%;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500; */
+  font-family: "playfair Display";
+  font-weight: 600;
+}
+#body1 h3 {
+  font-size: 15px;
+  margin-top: 40px;
+  color: white;
+  margin-left: 37%;
+  font-family: "playfair Display";
+  font-weight: 500;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+}
+#body1 P {
+  font-size: 15px;
+  margin-top: 40px;
+  color: white;
+  /* margin-left: 25%; */
+  padding: 0px 250px;
+  font-family: "playfair Display";
+  font-weight: 500;
+  word-spacing: 2px;
+  line-height: 28px;
+  text-align: center;
+}
+#body1 img {
+  background-size: cover;
+  margin-top: 100px;
+  margin-left: 130px;
+}
+#body2 {
+  width: 100%;
+  height: 147vh;
+  background-color: #f3f3f4;
+  overflow: hidden;
+}
+#body2 img {
+  margin-top: 110px;
+  padding: 0px 40px;
+}
+#body3 {
+  width: 100%;
+  height: 295vh;
+  background-color: #313033;
+  overflow: hidden;
+}
+#body3 img {
+  background-size: cover;
+  margin-top: 200px;
+  margin-left: 22%;
+}
+#body4 {
+  width: 100%;
+  height: 130vh;
+  background-color: #f3f3f4;
+  overflow: hidden;
+}
+#body4 img {
+  background-size: cover;
+  margin-top: 250px;
+  margin-left: 350px;
+}
+#body5 {
+  width: 100%;
+  height: 52vh;
+  background-color: #1a1a1a;
+  display: flex;
+  overflow: hidden;
+}
+#body5 #box1 img {
+  width: 775px;
+  height: 380px;
+  background-size: cover;
+}
+#body5 #box1 {
+  opacity: 0.1;
+  background: rgba(0, 0, 0, 0.2);
+}
+#body5 #box1:hover {
+  opacity: 0.3;
+}
+#body5 #box2 img {
+  width: 800px;
+  height: 380px;
+  background-size: cover;
+}
+#body5 #box2 {
+  opacity: 0.2;
+}
+#body5 #box2:hover {
+  opacity: 0.3;
+}
+#body6 {
+  width: 100%;
+  height: 85vh;
+  background-color: #1a1a1a;
+  overflow: hidden;
+}
+#body6 #upper img {
+  width: 220px;
+  height: auto;
+  margin-left: 630px;
+  margin-top: 85px;
+  /* background-image: url(https://longstoryshortdesign.co.uk/wp-content/themes/lss/img/logo.svg); */
+  background-size: cover;
+}
+#body6 #lower #left {
+  display: flex;
+  margin-top: -120px;
+  margin-left: 250px;
+  gap: 35px;
+}
+#body6 #lower #left > h3 {
+  font-size: 16px;
+  color: white;
+  font-family: gilroy;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+#body6 h2 {
+  margin-top: -25px;
+  margin-left: 60%;
+  font-size: 16px;
+  color: white;
+  font-family: gilroy;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+#body6 > h3 {
+  margin-top: -21px;
+  margin-left: 67%;
+  font-size: 16px;
+  color: white;
+  font-family: gilroy;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+#body6 > h4 {
+  margin-top: -20px;
+  margin-left: 74%;
+  font-size: 16px;
+  color: white;
+  font-family: gilroy;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+/* #body6 #overlay {
+  position: absolute;
+  width: 100%;
+  height: 95vh;
+  background-color: #1a1a1a;
+} */
